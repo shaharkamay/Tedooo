@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tedooo/static/css/main.c9a2c13e.css",
+    "main.js": "/tedooo/static/js/main.f0006c92.js",
+    "static/js/453.fe2dde14.chunk.js": "/tedooo/static/js/453.fe2dde14.chunk.js",
+    "index.html": "/tedooo/index.html",
+    "main.c9a2c13e.css.map": "/tedooo/static/css/main.c9a2c13e.css.map",
+    "main.f0006c92.js.map": "/tedooo/static/js/main.f0006c92.js.map",
+    "453.fe2dde14.chunk.js.map": "/tedooo/static/js/453.fe2dde14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9a2c13e.css",
+    "static/js/main.f0006c92.js"
+  ]
+}
