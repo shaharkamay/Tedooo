@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-const Item = styled.li<{ isActive?: boolean }>`
+const Item = styled.li<{ $isActive?: boolean }>`
   display: flex;
   align-items: stretch;
   font-family: Poppins;
-  ${({ isActive }) =>
-    isActive
+  ${({ $isActive }) =>
+    $isActive
       ? `
         color: #2DB8A1;
         border-bottom: 2px solid currentColor;
@@ -35,7 +35,7 @@ function NavItem({
   isActive?: boolean;
 }) {
   return (
-    <Item isActive={isActive}>
+    <Item $isActive={isActive}>
       <Link href={link}>{children}</Link>
     </Item>
   );
